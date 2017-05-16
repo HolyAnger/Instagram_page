@@ -1,0 +1,220 @@
+
+body{
+    background-color: #fafafa;
+}
+header{
+    min-height:75px;
+    background-color: #fff;
+    border-bottom: 1px solid #edeeee;
+}
+.account{
+    overflow: hidden;
+}
+.my_btn{
+    width:125px;
+    border-radius: 20px;
+}
+#logo{
+    line-height: 65px;
+}
+#log_out{
+    height:75px;
+    line-height: 75px;
+    text-align: right;
+}
+.campaign_avatar{
+    line-height: 205px;
+}
+.campaign_avatar img{
+    width: 100%;
+}
+.campaign_acc_info{
+    height: 205px;
+}
+.campaign_statistic_wrapper{
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.campaign_statistic{
+    height:115px;
+    vertical-align: middle;
+}
+.campaign_statistic ul{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.campaign_statistic ul li{
+    padding-left: 40px;
+}
+.registration_date{
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #4090db;
+    border-radius: 5px;
+    color: #4090db;
+}
+.campaign_name{
+    margin: 0;
+    padding: 20px 22px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+.count{
+    font-weight: bold;
+}
+
+.campaign_name, .registration_date, .posts, .followers, .following{
+    display: inline-block;
+}
+
+.table_wrapper{
+    font-size: 17px;
+    padding: 15px 80px;
+    border: 2px solid #dddddd;
+}
+
+.gallery{
+    margin-top: 45px;
+    padding: 0;
+}
+.img-wrapper{
+    margin: 15px;
+    position: relative;
+}
+.img_wrapper_info{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.5);
+}
+.img-wrapper img{
+    width:100%;
+}
+
+.none_padding{
+    padding: 0;
+}
+.today_stat, .date_stat{
+    padding: 7px 8%;
+}
+.today_stat span, .date_stat span{
+    display: inline-block;
+    color: #fff;
+}
+.today, .date{
+    width: 45%;
+    font-size: 16px;
+}
+.likes{
+    background-image: url(../img/likes.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    text-align: right;
+}
+.comments{
+    background-image: url(../img/comments.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    text-align: right;
+    margin-left: 15px;
+}
+.stat_wrapper{
+    margin-top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.date_upload{
+    text-align: center;
+    display: block;
+    color:#fff;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-bottom: 10px;
+    width: 100%;
+}
+.video{
+    background-image: url(../img/video.png);
+    background-repeat: no-repeat;
+    background-position-x:95%;
+    background-position-y:10px;
+}
+footer{
+    margin-top: 50px;
+    overflow: hidden;
+}
+#footer_nav ul{
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #125688;
+}
+#footer_nav ul li{
+    display: inline;
+    padding-right: 18px;
+}
+
+#footer_nav ul li:last-child{
+    float: right;
+}
+.load_more button{
+    outline: none;
+    background-color: #fafafa;
+    border: 1px solid black;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+.load_more{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 990px)  {
+    .date, .today{
+        font-size: 14px;
+        width:25%;
+    }
+}
+@media (max-width: 600px) {
+    .campaign_name{
+        margin: 0;
+        padding: 20px 0px;
+        padding-left: 0px;
+        vertical-align: middle;
+    }
+    .campaign_statistic ul li{
+        padding-left: 0px;
+    }
+    .table_wrapper{
+        padding: 0;
+    }
+}
+
+@media (max-width: 468px) {
+    .comments{
+        margin-left: 0;
+    }
+    .date_stat, .today_stat{
+        padding:0;
+    }
+}
+
+
+
