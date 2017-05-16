@@ -197,6 +197,15 @@ footer{
     background-repeat: no-repeat;
     background-position-x: 3px;
 }
+.growth{
+    vertical-align: text-top;
+    height: 25px;
+    width: 17px;
+    display: inline-block;
+    background-image: url(../img/arrow_up.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 @media (max-width: 990px)  {
     .date, .today{
         font-size: 14px;
